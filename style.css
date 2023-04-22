@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+section{
+    margin: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    color: #fff;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+select{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 14px 17px;
+    color: #fff;
+    margin: 20px 0;
+}
+input{
+
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+button{
+    border: 2px solid #fff;
+    padding: 14px 50px;
+    color: black;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+span{
+    margin-right: 40px;
+}
+li{
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.add-user{
+    margin-top: 100px;
+}
+h5{
+    margin-bottom: 30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.flex{
+    display: flex;
+    gap: 50px;
+}
+
+.para{
+    margin-bottom: 24px;
+}
+.input_info{
+    padding: 8px 20px;
+    border-radius: 5px;
+    width: 350px;
+   color: #fff;
+}
+
+h2{
+    letter-spacing: 1px;
+}
+
+
+
+/* 
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  color: white;
+}
+body {
+  background-color: black;
+}
+#profession-type {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin: 50px;
+}
+#profession-type > option {
+  background-color: black;
+}
+.user-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 800px;
+  gap: 20px;
+}
+.user-list > div {
+  border: 1px solid #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+body > button {
+  width: 226px;
+  height: 58px;
+  margin: 50px;
+  color: black;
+}
+.new-user {
+  margin: 50px;
+}
+.input {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.input > div {
+  flex-grow: 1;
+}
+.input input {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  height: 56px;
+  border-radius: 5px;
+  width: 90%;
+}
+.new-user > button {
+  margin-top: 50px;
+  width: 226px;
+  height: 58px;
+  background-color: #ffffff;
+  color: black;
+} */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    
+
+    <section>
+        <h2>Filter ui cards via their profession.</h2>
+        <select id="select-box">
+            <option value="professions">Profession</option>
+            <option value="admin">admin</option>
+            <option value="developer">developer</option>
+        </select>
+
+        <ul id="ollist">
+        </ul>
+
+        <button class="filter">Filter</button>
+
+        <div class="add-user">
+            <h5>Add a new user</h5>
+
+            <div class="flex">
+               <div class="box1">
+                 <p class="para">Enter Name</p>
+                <input type="text" class="input_info" id="name">
+               </div>
+
+               <div class="box1">
+                <p class="para">Enter profession</p>
+               <input type="text" class="input_info" id="profession">
+              </div>
+
+              <div class="box1">
+                <p class="para">Enter age</p>
+               <input type="text" class="input_info" id="age">
+              </div>
+
+            </div>
+
+            <button id="btn">Add User</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
